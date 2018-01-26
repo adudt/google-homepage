@@ -3,7 +3,7 @@ html {
 }
 
 /*nav content stlying here*/
-nav	{
+.header	{
 	height: 50px;
 	vertical-align: middle;
 }
@@ -12,7 +12,7 @@ ul, .head_left, .head_right{
 	list-style-type: none;
 	overflow: hidden;
 	display: inline-block;
-
+	font size: 12px;
 }
 
 li {
@@ -31,6 +31,7 @@ li a:hover {
 
 .head_left	{
 	margin-left: 10px;
+	float: left;
 }
 
 .head_right {
@@ -57,7 +58,61 @@ nav button {
 /*central content stlying here*/
 .central {
 	text-align: center;
-	margin-top: 250px;
 }
 
-input {}
+.logo {
+	text-align: center;
+	margin-top: 180px;
+}
+
+input {
+	width: 428px;
+	height: 44px;
+	margin-top: 20px;
+	border: none;
+	box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.16);
+	border-radius: 2px;
+	padding: 2px 30px 2px 10px;
+	font: 16px Arial, sans-serif;
+}
+
+.voice	{
+	margin-top: 25px;
+}
+
+.search img {
+	height: 24px;
+	width: 24px;
+	position: absolute;
+	float: right;
+	display: inline-block;
+}
+
+.button {
+	margin-top: 30px;
+	background-color: #f2f2f2;
+	font-size: 13px;
+	color: #757575;
+	padding: 5px 16px;
+	margin: 18px 4px;
+}
+
+/*footer syling here*/
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #efefef;
+  text-align: center;
+  font-size: small;
+}
+
+.foot_left	{
+	margin-left: 10px;
+	float: left;
+}
+
+.foot_right {
+	float: right;
+	margin-right: 20px;
